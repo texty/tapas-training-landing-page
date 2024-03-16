@@ -72,7 +72,7 @@ nav {
 }
 
 .title-wrapper {
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
 }
 
@@ -274,7 +274,7 @@ h1.title  {
     background-color: black;
     color: white;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -288,4 +288,66 @@ h1.title  {
 
 }
 
-/* Section 7. Умови участі */
+.show-program {
+    cursor: pointer;
+}
+
+.show-button-1-content {
+    text-decoration: underline;
+}
+
+.show-button-2-content {
+    opacity: 0.5;
+}
+
+.button-2-content {
+    display: none;
+}
+
+/* Section 8. Умови участі */
+#section-8 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 20px;
+}
+
+ .f-button {
+    display: inline-block;
+    background-color: tomato;
+    padding: 15px 30px;
+    width: max-content;
+    margin-top: 50px;
+
+ }
+
+
+footer {
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    min-height: 20vh;
+    height: max-content;
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: tomato;
+}
+
+footer p {
+    width: 90%;
+    font-size: 14px;
+}
