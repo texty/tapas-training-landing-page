@@ -1,5 +1,9 @@
 @import url('fonts.css');
 
+:root {
+    --bright-orange: #FF9C55;
+}
+
 body {
     margin:0;
     font-family: "e-Ukraine-Light", sans-serif;
@@ -16,7 +20,7 @@ img {
 }
 
 section.header {
-    background-color: #E8401FCC;
+    background-color: var(--bright-orange);
     padding: 30px;
 }
 
@@ -287,7 +291,7 @@ h1.title  {
 
 .day-moderator {
     grid-row: 2/3;
-    background-color: tomato;
+    background-color: var(--bright-orange);;
     color: white;
     box-sizing: border-box;
     padding: 10px;
@@ -321,7 +325,7 @@ h1.title  {
 
  .f-button {
     display: inline-block;
-    background-color: tomato;
+    background-color: var(--bright-orange);;
     padding: 15px 30px;
     width: max-content;
     margin-top: 50px;
@@ -337,6 +341,7 @@ footer {
     height: max-content;
     background-color: black;
     color: white;
+    box-sizing: border-box;
 }
 
 .footer-content {
@@ -352,7 +357,7 @@ footer a {
 }
 
 footer a:hover {
-    color: tomato;
+    color: var(--bright-orange);;
 }
 
 footer p {
