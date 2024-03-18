@@ -243,7 +243,8 @@
             <h3 class="show-button-1-content show-program">Тренінг для ГО</h3>
             <h3 class="show-button-2-content show-program">Тренінг для бізнесу</h3>
         </div>
-        <div class="button-2-content day">  
+        <div class="button-2-content ">
+        <div class="day">  
                     <div class="day-program" style="grid-row: 1/2">
                         <p>День 1</p>
                         <p>09:30 − 10:00 Реєстрація, вітальна кава</p>
@@ -280,9 +281,10 @@
                         </p>
                     </div>
             </div>
+        </div>
 
-
-            <div class="button-1-content day">
+        <div class="button-1-content">
+            <div class="day">
                 <div class="day-program" style="grid-row: 1/2">
                     <p>День 1</p>
                     <p>09:30 − 10:00 Реєстрація, вітальна кава</p>
@@ -326,6 +328,7 @@
                     </p>
                 </div>
 
+            </div>
             </div>
         </div>
     </section>
@@ -391,7 +394,7 @@ let button2 = document.querySelector('.button-2-content');
 // Add click event listener to h3 elements
 // Add click event listener to h3 elements
 h3Button1.addEventListener('click', function() {
-        button1.style.display = "grid";
+        button1.style.display = "block";
         button2.style.display = "none";
         h3Button1.style.opacity = 1;
         h3Button1.style.textDecoration = "underline";
@@ -401,7 +404,7 @@ h3Button1.addEventListener('click', function() {
 });
 
 h3Button2.addEventListener('click', function() {
-    button2.style.display = "grid";
+    button2.style.display = "block";
         button1.style.display = "none";
         h3Button2.style.opacity = 1;
         h3Button2.style.textDecoration = "underline";

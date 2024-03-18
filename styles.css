@@ -275,7 +275,7 @@ h1.title  {
 
 @media(max-width: 700px){
     .day {
-        display: block !important;
+        display: block ;
     }
     
 }
