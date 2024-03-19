@@ -127,7 +127,7 @@ h1.title  {
     max-width: 400px; 
     margin: auto; 
     height: max-content; 
-    background: radial-gradient(50.00% 50.00% at 50% 50%,rgb(232, 64, 31),
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgb(255, 156, 85),
             rgba(255, 255, 255, 0.29) 92.366%);
 }
 
